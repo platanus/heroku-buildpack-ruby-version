@@ -39,6 +39,7 @@ case "$RUBY_VERSION" in
 esac
 
 sed -i "/source/a \\\nruby '$RUBY_VERSION_PATCHED'" Gemfile
+bundle update --ruby
 echo "-----> Getting ruby version from .ruby-version file"
 echo "-----> Found Ruby version: $RUBY_VERSION"
 echo "-----> Adding Ruby version to Gemfile: $RUBY_VERSION_PATCHED"
