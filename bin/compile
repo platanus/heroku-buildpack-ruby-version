@@ -25,7 +25,7 @@ case "$RUBY_VERSION" in
     RUBY_VERSION_PATCHED="2.4.6"
     ;;
   2.5)
-    RUBY_VERSION_PATCHED="2.5.5"
+    RUBY_VERSION_PATCHED="2.5.9"
     ;;
   2.6)
     RUBY_VERSION_PATCHED="2.6.2"
